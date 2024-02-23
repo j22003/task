@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <header>
+        <div class="logo">tasks</div>
+        <div class="nav">
+            <a href="index.html">home</a>
+            <a href="list.html" class="uesfull">list</a>
+            <a href="login.html" class="uesfull">login</a>
+            <a href="table.html" class="uesfull">tabel</a>
+            
+        </div>
+    </header>
+    <hr>
+    <h1>create a new account</h1>
+    <h4>it's frree and always will be.</h4><!--why it is not sending the information to the url-->
+    <form action="login.html" method="get" >
+        <input type="text" required placeholder="first name" >
+        <input type="text" required placeholder="sur name" > <br>
+        <input type="text" required placeholder="mobile number or email address"> <br>
+        <input type="password" required placeholder="new password" >
+         <br>
+        <label for="date" >date of birth</label> <br>
+        <input type="date" required id="date"> <br>
+        <label for="g1">male</label>
+        <input type="radio" id="g1">    
+        <label for="g2">femal</label>
+        <input type="radio" id="g2">
+        <br>
+        <input type="submit" value="sign up">
+    </form>
+</body>
+</html>
